@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: 800; */
+}
+aside{
+    position: relative;
+    display: inline-block;
+    width: 5.5vw;
+    height: 100vh;
+}
+main{
+    display: inline-block;
+    width: 93vw;
+    height: 100vh;
+}
+.background{
+    min-height: 100%;
+    background: url(/img/background.jpg) center no-repeat;
+    background-size: cover;
+}
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo{
+    display: inline-block;
+    font-weight: 800;
+    font-size: 24px;
+}
+.nav__items{
+    display: inline-block;
+    position: relative;
+    left: 55vw;
+}
+.nav__item{
+    display: inline-block;
+    margin: 0 1vw;
+}
+.nav__item:last-child{
+    margin: 0;
+}
+.nav__item a{
+    padding: 5px 20px;
+}
+.nav__item a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    margin-top: 5vh;
+    margin-left: 9vw;
+}
+.aside__text{
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    text-transform:uppercase;
+    left: -20vh;
+    top: 50%;
+    transform: rotate(-90deg);
+}
+.aside__img{
+    position: absolute;
+    width: 4vw;
+    height: 4vh;
+    bottom: 1vh;
+    left: 1vw;
+    opacity: .5;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+span{
+    color: rgb(179, 179, 179);
+}
+.text__bold{
+    color: black;
+    font-weight: 800;
+}
+.btn{
+    top: 70%;
+    left: 45%;
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+    border-radius: 50px; 
+    /* border-radius: 50%; почему не работает?  */
+    box-shadow: 10px 11px 20px black;
+}

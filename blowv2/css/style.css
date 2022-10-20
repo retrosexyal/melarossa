@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.background{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 6%;
+    width: 94%;
+    min-height: 100vh;
+    background: url(/src/img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    z-index: 1;
+    position: relative;
+    text-align: end;
+    top: 5vh;
+}
+.header__logo{
+    display: inline-block;
+    margin-right: 60%;
+}
+.nav__items{
+    display: inline-block;
+}
+.nav__item{
+    display: inline-block;
+    margin: 0 20px;
+}
+aside{
+    position: relative;
+    z-index: 1;
+}
+.img__container{
+    position: relative;
+    bottom: 0;
+    width: 4vw;
+    height: 4vh;
+}
+.aside__img{
+    width: 100%;
+    height: 100%;
+}
+
